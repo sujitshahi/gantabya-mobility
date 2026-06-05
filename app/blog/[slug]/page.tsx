@@ -384,7 +384,7 @@ export default async function BlogDetailPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
       {/* Hero Section - Added pt-24 for more spacing from navbar */}
-      <div className="relative h-[60vh] min-h-[500px] w-full overflow-hidden pt-24">
+      <div className="relative h-[60vh] min-h-125 w-full overflow-hidden pt-24">
         <div className="absolute inset-0">
           <Image
             src={post.image}
@@ -394,7 +394,7 @@ export default async function BlogDetailPage({ params }: Props) {
             className="object-cover"
           />
           {/* Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent" />
           <div className="absolute inset-0 bg-black/40" />
         </div>
 
@@ -593,7 +593,7 @@ export default async function BlogDetailPage({ params }: Props) {
                         className="group block"
                       >
                         <div className="flex gap-3">
-                          <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-gray-800">
+                          <div className="relative w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-gray-800">
                             <Image
                               src={relatedPost.image}
                               alt={relatedPost.title}
@@ -622,7 +622,7 @@ export default async function BlogDetailPage({ params }: Props) {
               )}
 
               {/* Newsletter Signup */}
-              <div className="bg-gradient-to-br from-green-900/20 to-blue-900/20 border border-green-500/20 rounded-xl p-6">
+              <div className="bg-linear-to-br from-green-900/20 to-blue-900/20 border border-green-500/20 rounded-xl p-6">
                 <div className="text-center">
                   <div className="text-3xl mb-3">📧</div>
                   <h3 className="text-lg font-bold text-white mb-2">
