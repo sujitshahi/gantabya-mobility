@@ -15,7 +15,7 @@ export const blogPosts = [
     bg: "bg-blue-500/10",
     image: "https://images.unsplash.com/photo-1617704548623-340376564e68?w=1200&auto=format&fit=crop&q=80",
     content: `
-      <p class="text-xl text-gray-300 leading-relaxed">The electric vehicle revolution is finally taking hold in Nepal, transforming the way millions commute through the mountainous terrain. With the government's ambitious targets and increasing environmental awareness, 2024 marks a turning point for EV adoption in the Himalayan nation.</p>
+       <p class="text-xl text-gray-300 leading-relaxed">The electric vehicle revolution is finally taking hold in Nepal, transforming the way millions commute through the mountainous terrain. With the government's ambitious targets and increasing environmental awareness, 2024 marks a turning point for EV adoption in the Himalayan nation.</p>
 
       <h2>The Current Landscape: A 400% Growth Story</h2>
       <p>Nepal has witnessed an unprecedented 400% increase in EV adoption over the past two years. This surge is driven by multiple factors: rising fuel costs, government incentives, and growing environmental consciousness among Nepali consumers. The import of electric vehicles has seen a dramatic rise, with four-wheelers leading the charge followed closely by electric motorcycles.</p>
