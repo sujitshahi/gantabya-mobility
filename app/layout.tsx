@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar/page";
 import Footer from "../components/Footer/page";
 
+
 export const metadata: Metadata = {
   title: "Gantabya Mobility",
   description: "EV Mobility Platform",
@@ -19,6 +20,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className="flex min-h-screen flex-col"
       >
+        
         {/* Navbar */}
         <Navbar />
 
