@@ -3,11 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts } from "../blogData";
 
-// export async function generateStaticParams() {
-//   return blogPosts.map((post) => ({
-//     slug: post.slug,
-//   }));
-// }
+
 
 interface Props {
   params: Promise<{
