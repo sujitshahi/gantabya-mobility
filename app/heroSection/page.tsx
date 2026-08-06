@@ -702,13 +702,13 @@ import { ArrowRight, Zap, Gauge, BatteryCharging } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen bg-[#050806] text-white flex flex-col items-center justify-between overflow-hidden font-sans pt-24 pb-16 px-6">
+    <div className="relative bg-[#050806] text-white flex flex-col items-center justify-between overflow-hidden font-sans pt-24 pb-16 px-6">
       {/* Rich Lush Greenery Ambient Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-emerald-600/15 rounded-full blur-[160px] pointer-events-none animate-pulse duration-1000"></div>
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-green-500/10 rounded-full blur-[120px] pointer-events-none"></div>
 
       {/* Top Section: Centered Headlines & CTAs */}
-      <div className="relative z-10 text-center max-w-4xl mx-auto space-y-6">
+      <div className="relative z-10 text-center max-w-4xl mx-auto space-y-6 mt-7">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-400 text-xs font-semibold uppercase tracking-widest shadow-[0_0_20px_rgba(16,185,129,0.15)] backdrop-blur-md transform transition hover:scale-105 duration-300">
           <Zap size={14} className="animate-bounce text-emerald-400" />
           <span>Engineered & Built in Nepal</span>
