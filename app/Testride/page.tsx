@@ -13,7 +13,7 @@ import { MapPin } from "lucide-react";
 
 export default function Testride() {
   return (
-    <div className="bg-black py-16 min-h-screen text-white p-4 md:p-16 select-none">
+    <div className="bg-black py-16   min-h-screen text-white p-4 md:p-16 select-none">
       
    
         <div className="text-center mb-16">
