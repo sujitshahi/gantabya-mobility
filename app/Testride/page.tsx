@@ -13,11 +13,11 @@ import { MapPin } from "lucide-react";
 
 export default function Testride() {
   return (
-    <div className="bg-black py-16   min-h-screen text-white p-4 md:p-16 select-none">
+    <div className="bg-black py-16 min-h-screen text-white p-4 md:p-16 select-none">
       
    
         <div className="text-center mb-16">
-            <h1 className="text-white text-4xl   md:text-[54px] font-extrabold tracking-tight leading-none">
+            <h1 className="text-white text-4xl md:text-[54px] font-extrabold tracking-tight leading-none">
             Book a{' '}
             <span className="bg-clip-text text-transparent bg-linear-to-r from-[#00c853] via-[#00a86b] to-[#005f60]">
                 Test Ride

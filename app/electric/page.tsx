@@ -25,7 +25,7 @@ const VEHICLES: Vehicle[] = [
     range: '180km',
     speed: '180km/hr',
     price: 'NPR 4,50,000',
-    image: 'https://i.pinimg.com/1200x/4e/12/a2/4e12a20b5ea488177775c195ecfffb93.jpg',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
   },
   {
     id: 'volt-cruiser',
@@ -34,7 +34,7 @@ const VEHICLES: Vehicle[] = [
     range: '200km',
     speed: '120km/hr',
     price: 'NPR 3,99,000',
-    image: 'https://i.pinimg.com/1200x/b0/42/b0/b042b09f5d6a9606d5d6944c1e0a522a.jpg',
+    image: 'https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800&q=80',
   },
   {
     id: 'eco-ride',
@@ -43,36 +43,39 @@ const VEHICLES: Vehicle[] = [
     range: '120km',
     speed: '80km/hr',
     price: 'NPR 2,49,000',
-    image: 'https://i.pinimg.com/1200x/db/dc/1f/dbdc1fc034554328c45dc8dd3caca614.jpg',
+    image: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80',
+  },
+
+   {
+    id: 'thunder',
+    name: 'Thunder X',
+    tagline: 'Born to dominate.',
+    range: '180km',
+    speed: '180km/hr',
+    price: 'NPR 4,50,000',
+    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlrZXN8ZW58MHx8MHx8fDA%3D',
   },
   {
-    id: 'apex-gt',
-    name: 'Apex GT',
-    tagline: 'Ultimate speed and agility.',
-    range: '190km',
-    speed: '160km/hr',
-    price: 'NPR 4,20,000',
-    image: 'https://i.pinimg.com/736x/f0/9e/8a/f09e8a45f93fa5137db1ccf65f5c4505.jpg',
-  },
-  {
-    id: 'neon-pulse',
-    name: 'Neon Pulse',
-    tagline: 'Futuristic design meets raw torque',
-    range: '210km',
-    speed: '130km/hr',
-    price: 'NPR 4,10,000',
+    id: 'cruiser',
+    name: 'Volt Cruiser',
+    tagline: 'Silent power, endless roads',
+    range: '200km',
+    speed: '120km/hr',
+    price: 'NPR 3,99,000',
     image: 'https://images.unsplash.com/photo-1607091083645-31f4e28dc9af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlY3RyaWMlMjBtb3RvcmJpa2VzfGVufDB8fDB8fHww',
   },
   {
-    id: 'urban-glide',
-    name: 'Urban Glide',
-    tagline: 'Effortless city navigation',
-    range: '140km',
-    speed: '90km/hr',
-    price: 'NPR 2,75,000',
+    id: 'eco',
+    name: 'Eco Ride',
+    tagline: 'Smart commute, zero emissions',
+    range: '120km',
+    speed: '80km/hr',
+    price: 'NPR 2,49,000',
     image: 'https://images.unsplash.com/photo-1607088797610-020db7a14cd5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGVsZWN0cmljJTIwbW90b3JiaWtlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
-];
+
+
+]
 
 function VehicleCard({
   vehicle,
