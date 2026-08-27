@@ -9,7 +9,7 @@ export default function HeroSection() {
         className="relative h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-          "url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=2070&auto=format&fit=crop')",
+          "url('https://images.unsplash.com/photo-1607091083645-31f4e28dc9af?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 }}
               >
       

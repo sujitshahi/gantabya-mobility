@@ -14,7 +14,7 @@ const VEHICLES = [
     price: 'NPR 4,50,000',
     location: 'Ex-showroom Kathmandu',
     image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
+      'https://images.unsplash.com/photo-1582716510840-7846d2bcc19b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 
   {
@@ -26,7 +26,7 @@ const VEHICLES = [
     price: 'NPR 3,99,000',
     location: 'Ex-showroom Pokhara',
     image:
-      'https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=1200&q=80',
+      'https://images.unsplash.com/photo-1607091083645-31f4e28dc9af?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 
   {
@@ -38,40 +38,31 @@ const VEHICLES = [
     price: 'NPR 2,49,000',
     location: 'Ex-showroom Lalitpur',
     image:
-      'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=1200&q=80',
+      'https://images.unsplash.com/photo-1665378029534-fc879ff3920d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGVsZWN0cmljJTIwbW90b3JjeWNsZXxlbnwwfHwwfHx8MA%3D%3D',
   },
 
   {
-    id: 'eco-ride',
-    name: 'Eco Ride',
-    tagline: 'Smart commute, zero emissions',
-    range: '120km',
-    speed: '80km/hr',
-    price: 'NPR 2,49,000',
-    image: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80',
-  },
-
-   {
     id: 'thunder',
-    name: 'Thunder X',
+    name: 'Thunder S',
     tagline: 'Born to dominate.',
     range: '180km',
     speed: '180km/hr',
     price: 'NPR 4,50,000',
-    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlrZXN8ZW58MHx8MHx8fDA%3D',
+    image: 'https://images.unsplash.com/photo-1638743995296-cac26c72fa7a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
-  {
+
+   {
     id: 'cruiser',
-    name: 'Volt Cruiser',
+    name: 'Volt Cruiser S',
     tagline: 'Silent power, endless roads',
     range: '200km',
     speed: '120km/hr',
     price: 'NPR 3,99,000',
-    image: 'https://images.unsplash.com/photo-1607091083645-31f4e28dc9af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlY3RyaWMlMjBtb3RvcmJpa2VzfGVufDB8fDB8fHww',
+    image: 'https://images.unsplash.com/photo-1655408747284-54dd43a246a5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 'eco',
-    name: 'Eco Ride',
+    name: 'Eco City',
     tagline: 'Smart commute, zero emissions',
     range: '120km',
     speed: '80km/hr',
