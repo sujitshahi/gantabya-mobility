@@ -18,7 +18,7 @@ const riders = [
     name: "Rajesh Tamang",
     location: "Lalitpur",
     review:
-      "The Storm handles hills effortlessly. I’ve taken it to Nagarkot multiple times — zero range anxiety.",
+      "The Storm handles  hills effortlessly. I’ve taken it to Nagarkot multiple times — zero range anxiety.",
   },
 ];
 
