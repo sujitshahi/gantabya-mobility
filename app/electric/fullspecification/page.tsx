@@ -12,7 +12,7 @@ import {
 const specifications = [
   {
     id: 1,
-    title: "8 kW BLDC Hub Motor",
+    title: "8 kW   BLDC Hub Motor",
     description: "Motor",
     icon: Zap,
   },
